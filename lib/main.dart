@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  Widget MyApp =MaterialApp(
+    home: Scaffold(
+     // backgroundColor: Colors.purple,
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text("Home"),
+        leading: Icon(Icons.arrow_back),
+      ),
+      body: Text("Myapp"),
+    ),
+  );
+
+  runApp(MyApp);
+}
